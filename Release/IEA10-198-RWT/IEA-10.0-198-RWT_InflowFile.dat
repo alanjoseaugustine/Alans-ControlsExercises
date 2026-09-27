@@ -22,7 +22,7 @@ False                  VelInterpCubic - Use cubic interpolation for velocity in 
 "none"                 FileName_BTS - Name of the Full field wind file to use (.bts)
 ================== Parameters for Binary Bladed-style Full-Field files   [used only for WindType = 4 or WindType = 7] =========
 "none"                 FilenameRoot - WindType=4: Rootname of the full-field wind file to use (.wnd, .sum); WindType=7: name of the intermediate file with wind scaling values
-False                  TowerFile   - Have tower file (.twr) (flag) ignored when WindType = 7
+True                   TowerFile   - Have tower file (.twr) (flag) ignored when WindType = 7
 ================== Parameters for HAWC-format binary files  [Only used with WindType = 5] =====================
 "none"                 FileName_u  - name of the file containing the u-component fluctuating wind (.bin)
 "none"                 FileName_v  - name of the file containing the v-component fluctuating wind (.bin)
@@ -64,5 +64,6 @@ False                  LidRadialVel        - TRUE => return radial component, FA
 ====================== OUTPUT ==================================================
 False                  SumPrint    - Print summary data to <RootName>.IfW.sum (flag)
 OutList      - The next line(s) contains a list of output parameters.  See OutListParameters.xlsx for a listing of available output channels, (-)
+"Wind1VelX"
 END of input file (the word "END" must appear in the first 3 columns of this last OutList line)
 ---------------------------------------------------------------------------------------
