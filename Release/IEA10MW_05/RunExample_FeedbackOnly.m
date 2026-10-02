@@ -32,4 +32,4 @@ PlotTimeResults(TimeResults,PostProcessingConfig);
 Statistics                  = CalculateStatistics(TimeResults,PostProcessingConfig);
 
 % Evaluate only, if you want to overwrite the results: 
-% save(['Statistics_',SimulationMode],'Statistics')
+save(['Statistics_',SimulationMode],'Statistics')
