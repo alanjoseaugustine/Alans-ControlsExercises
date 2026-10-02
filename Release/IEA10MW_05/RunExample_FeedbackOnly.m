@@ -11,7 +11,7 @@ SimulationMode              = 'FeedbackOnly';
 % generate simulation folder and copy all files from OpenFAST and TemplateFolder to SimulationFolder
 ExeFile                     = 'openfast_x64_v4.exe';
 SimulationFolder            = ['SimulationResults_',SimulationMode];
-TemplateFolder              = '../IEA-10-198-RWT';
+TemplateFolder              = '../IEA10-198-RWT';
 if ~exist(SimulationFolder,'dir')
     mkdir(SimulationFolder)
 end
