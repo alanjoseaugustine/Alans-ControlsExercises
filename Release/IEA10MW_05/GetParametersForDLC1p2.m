@@ -9,7 +9,7 @@ end
 StartTime               = 60;       % [s]           time to start evaluation (all signals should be settled) 
 WoehlerExponentSteel    = 4;        % [-]           typical value for steel
 WoehlerExponentComposite= 10;        % [-]          typical value for composite material
-PC_RefSpd               = 0.79168;  % [rad/s]       rated generator speed from ROSCO_v2d6.IN
+PC_RefSpd               = 0.90767;  % [rad/s]       rated generator speed from ROSCO_v2d6.IN
 
 % files
 StatisticsFile      	= 'Statistics_SteadyStates.mat';
