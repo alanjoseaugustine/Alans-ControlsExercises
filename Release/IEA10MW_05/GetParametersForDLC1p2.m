@@ -17,7 +17,7 @@ PC_RefSpd               = 0.90767;  % [rad/s]       rated generator speed from R
 StatisticsFile      	= 'Statistics_SteadyStates.mat';
 
 % Variation
-PreProcessingVariation  = { 'URef',[4:2:24],'%02d';
+PreProcessingVariation  = { 'URef',[4:2:8],'%02d';
                             'Seed',[1:6]   ,'%02d'};
 
 % template files
