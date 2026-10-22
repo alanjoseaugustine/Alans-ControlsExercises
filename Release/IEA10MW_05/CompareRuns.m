@@ -23,7 +23,7 @@ SimulationModes     = {
 nSimulationModes    = length(SimulationModes);
 
 % Config
-WindSpeedBins       = 4:2:24;
+WindSpeedBins       = 4:2:8;
 WindSpeedChannel    = 'mean_Wind1VelX';
 FrequencyResults    = struct(); % dummy, because FrequencyResults are not used here
 PostProcessingConfig.CalculateProcessResults = {
@@ -69,6 +69,10 @@ plot(WindSpeedBins,ProcessResults(1).LTW_DEL_10_RootMyb1_PerBin/1e3,'o-')
 legend(SimulationModes,'location','best','Interpreter','none')
 ylabel('Blade DEL [MNm]')
 xlabel('wind speed [m/s]')
+
+%---------my own plot code
+
+%---------my own plot code
 
 figure('Name','Other values')
 subplot(411)
